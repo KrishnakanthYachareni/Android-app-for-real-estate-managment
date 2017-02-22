@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!-- username -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Username:"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+    
+    <!-- username input -->
+	<EditText android:id="@+id/inputname"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"/>
+	
+	<!-- password -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+    
+    <!-- password input -->
+	<EditText android:id="@+id/inputpassword" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"
+	    android:inputType="textPassword"/>"
+	
+	
+	
+	<!-- Button Login -->
+	<Button android:id="@+id/btnlogin" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Login"/>
+	
+	<!-- Button Create Account -->
+	<Button android:id="@+id/btncreate" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Not Registered, Here!!"/>
+	
+	<!-- Button Quit -->
+	<Button android:id="@+id/btnquit" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Quit"/>
+	
+</LinearLayout>

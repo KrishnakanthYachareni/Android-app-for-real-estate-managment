@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!-- firstname -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="FirstName:"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+    
+    <!-- firstname input -->
+	<EditText android:id="@+id/fname"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"/>
+	
+	 <!-- lastname -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="LastName:"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+    
+    <!-- lastname input -->
+	<EditText android:id="@+id/lname"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"/>
+	
+	 <!-- username -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Username:"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+    
+    <!-- username input -->
+	<EditText android:id="@+id/uname"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"/>
+	
+	<!-- password -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+    
+    <!-- password input -->
+	<EditText android:id="@+id/pass" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"
+	    android:inputType="textPassword"/>
+	
+	
+	 <!-- address -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+    
+    <!-- address input -->
+	<EditText android:id="@+id/addr"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"/>
+	
+	 <!-- contact -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact:"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"/>
+    
+    <!-- contact input -->
+	<EditText android:id="@+id/contact"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true"/>
+	
+	<!-- Button Register -->
+	<Button android:id="@+id/btnreg" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Submit"/>
+	
+	
+	<!-- Button Cancel -->
+	<Button android:id="@+id/btncancel" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Cancel"/>
+	
+</LinearLayout>
+</ScrollView>

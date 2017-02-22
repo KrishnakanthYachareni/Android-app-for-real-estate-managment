@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.estate"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="keyboardHidden|orientation"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        
+        <activity
+            android:name="com.example.estate.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+       
+        
+         <!-- Registration Activity -->
+        <activity
+            android:name=".RegActivity"
+            android:label="User Registration" >
+        </activity>
+        
+         <activity
+            android:name=".ScreenActivity"
+            android:label="Welcome::" >
+        </activity>
+        
+         <activity
+            android:name=".NewPropertyActivity"
+            android:label="Post a property/holding" >
+        </activity>
+        
+         <activity
+            android:name=".AllProductsActivity"
+            android:label="Available Properties" >
+        </activity>
+        
+         <activity
+            android:name=".EditProductActivity"
+            android:label="Property Details" >
+        </activity>
+        
+          <activity
+            android:name=".MessageActivity"
+            android:label="Talk to the Admin" >
+        </activity>
+        
+           <activity
+            android:name=".ReadComments"
+            android:label="Property" >
+        </activity>
+        
+           <activity
+            android:name=".AddComment"
+            android:label="Property" >
+        </activity>
+        
+    </application>
+    
+     <!--  Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
